@@ -1,0 +1,447 @@
+/* Heading */
+header{
+	background-image: url("images/musichead.jpg");
+	background-size: cover;
+	background-color: #cccccc;
+}
+.head1{
+	font-size:40px;
+	color:#0C41F4;
+	font-weight:bold;
+	font-family: 'Brush Script MT', cursive;
+	text-shadow: 2px 2px #FF0000;
+}
+.head2{
+	color:red;
+	font-size:40px;
+	font-weight:bold;
+	font-family: 'Brush Script MT', cursive;
+	text-shadow: 2px 2px blue;
+}
+#head3{
+	margin-left:8px;
+	display: flex;
+    flex-direction: row;
+}
+
+.head4{
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+    margin-left: 1000px;
+    margin-top: 10px;
+    border-radius: 12px;
+}
+
+.head5{
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 10px;
+    border-radius: 12px;
+}
+
+.head4:hover, .head5:hover, .v1:hover{
+    background-color: orangered;
+    font-weight: bold;
+    transform: scale(1.1);
+}
+
+.v2:hover{
+    background-color: black;
+    font-weight: bold;
+    transform: scale(1.1);
+}
+
+.v1{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: black;
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 10px;
+    border-radius: 12px;
+}
+
+.v2{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: orangered;
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 10px;
+    border-radius: 12px;
+}
+
+.v3{
+    float: right;
+    padding: 20px;
+    margin-left: 200px;
+    border-radius: 12px;
+}
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-image: url("images/musichead2.jpg");
+  background-size: cover;
+  background-color: #cccccc;
+  font-family: Arial;
+  margin: 10px;
+    margin-top: 15px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar .search-container {
+  float: right;
+}
+
+.navbar input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.navbar .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar .search-container button:hover {
+  background: #ccc;
+}
+
+.nav1{
+	background-color:orange;
+	border: 1px solid blue;
+	font-size: 16px;
+	padding: 14px 16px;
+	margin: 0;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: 1px solid blue;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: skyblue;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+body{
+	background-image: url("images/back4.jpg");
+	background-size: cover;
+	background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#intro{
+    display: flex;
+    flex-direction: row;
+	background-color: rgba(241, 86, 24, 0.2);
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#intro1{
+	font-family:  cursive;
+	font-size:30px;
+	
+	padding:0px;
+	margin:5px;
+
+	background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+}
+@keyframes textclip {
+	to {
+	  background-position: 200% center;
+	}
+  }
+
+#intro2{
+	font-family:  cursive;
+	padding:5px;
+	margin:0px;
+	color:rgb(185, 185, 209);
+}
+
+#games{
+    display: flex;
+    flex-direction: column;
+    background-color: goldenrod;
+}
+
+.g1{
+    display: flex;
+    justify-content: center;
+}
+
+.g1 h1{
+    color: white;
+    font-weight: bold;
+}
+
+.g2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 20px;
+}
+
+.g2 img{
+    border-radius: 16px;
+}
+
+.g2 img:hover{
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.ll{
+    display: flex;
+    flex-direction: row;
+    gap: 130px;
+    row-gap: 10px;
+    flex-wrap: wrap;
+}
+
+.l0{
+    display: flex;
+    flex-direction: row;
+}
+
+.l1{
+    display: flex;
+}
+
+.l2{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin: 5px;
+}
+
+#tournaments{
+    background-color: rgb(79, 247, 135);
+}
+
+#register{
+    display: flex;
+    flex-direction: column;
+   padding: 20px;
+   margin: 20px;
+   margin-left: 120px;
+}
+
+#r1{
+    display: flex;
+    flex-direction: row;
+}
+
+#register button:hover{
+    transform: scale(1.1);
+    border-radius: 16px;
+}
+
+#spartan{
+    margin-left: 150px;
+}
+
+#i1{
+    margin-left: 40px;
+}
+
+#blog{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: rgba(238, 122, 159, 0.5);;
+    padding: 10px;
+}
+
+#blog img{
+    border-radius: 16px;
+}
+
+#blog img:hover{
+    transform: scale(1.1);
+}
+
+#m1{
+    margin-left: 75px;
+}
+
+#m2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+
+footer{
+	background-color: rgba(90, 99, 71, 0.7);
+	padding: 0px;
+	margin: 0px;
+	border:1px solid rgba(90, 99, 71, 0.7) ;
+}
+
+footer p{
+	font-size: 16px;
+	padding: 4px;
+	margin: 6px;
+}
+
+#footer2{
+	color: orange;
+	margin: 2px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.social-media {
+    
+    height: 7rem;
+    width: 350px;
+    display: flex;
+	padding: 0px;
+	margin: 0px;
+}
+.social-media img:hover{
+	transform: scale(1.1);
+	border:2px solid grey;
+	box-shadow:4px 4px black;
+}
+#facebook{
+    height: 44px;
+    width: 44px;
+    border-radius: 150px;
+    margin-left: 70px;
+    margin-top: 40px;
+	border:2px solid grey;
+	box-shadow:4px 4px black;
+}
+#instagram{
+    height: 44px;
+    width: 44px;
+    border-radius: 150px;
+    margin-left: 20px;
+    margin-top: 40px;
+	border:2px solid grey;
+	box-shadow:4px 4px black;
+}
+#likedin{
+    height: 44px;
+    width: 44px;
+    border-radius: 150px;
+    margin-left: 20px;
+    margin-top: 40px;
+	border:2px solid grey;
+	box-shadow:4px 4px black;
+}
+#slack{
+    height: 44px;
+    width: 44px;
+    border-radius: 150px;
+    margin-left: 20px;
+    margin-top: 40px;
+	border:2px solid grey;
+	box-shadow:4px 4px black;
+}
+#youtube{
+    height: 44px;
+    width: 44px;
+    border-radius: 150px;
+    margin-left: 20px;
+    margin-top: 40px;
+	border:2px solid grey;
+	box-shadow:4px 4px black;
+}
