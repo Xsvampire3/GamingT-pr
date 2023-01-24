@@ -1,6 +1,6 @@
 /* Heading */
 header{
-	background-image: url("images/musichead.jpg");
+	background-image: url("musichead.jpg");
 	background-size: cover;
 	background-color: #cccccc;
 }
@@ -93,7 +93,7 @@ header{
 /* Navbar container */
 .navbar {
   overflow: hidden;
-  background-image: url("images/musichead2.jpg");
+  background-image: url("musichead2.jpg");
   background-size: cover;
   background-color: #cccccc;
   font-family: Arial;
@@ -199,7 +199,7 @@ header{
 }
 
 body{
-	background-image: url("images/back4.jpg");
+	background-image: url("back4.jpg");
 	background-size: cover;
 	background-color: #cccccc;
   background-repeat: no-repeat;
